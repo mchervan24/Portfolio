@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Works</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="font-weight: 700;">
+                <img src="logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html" style="font-weight: 700;">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html" style="font-weight: 700;">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" style="font-weight: 700;">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <h2 style="font-weight: 700;">My Works</h2>
+        
+        <!-- Kategori Button -->
+        <div class="btn-group mb-4" role="group" aria-label="Category buttons">
+            <button type="button" class="btn btn-primary" onclick="showCategory('all')">All</button>
+            <button type="button" class="btn btn-secondary" onclick="showCategory('web')">Web Design</button>
+            <button type="button" class="btn btn-secondary" onclick="showCategory('mobile')">Mobile Design</button>
+            <button type="button" class="btn btn-secondary" onclick="showCategory('logo')">Logo</button>
+        </div>
+
+        <!-- Galeri Karya -->
+        <div class="row">
+            <!-- Web Design -->
+            <div class="col-md-4 work-item web">
+                <img src="web_project1.jpg" alt="Web Project 1" class="img-fluid">
+                <p style="font-weight: 400;">Web Project 1: Description of the web project.</p>
+            </div>
+            <div class="col-md-4 work-item web">
+                <img src="web_project2.jpg" alt="Web Project 2" class="img-fluid">
+                <p style="font-weight: 400;">Web Project 2: Description of the web project.</p>
+            </div>
+
+            <!-- Mobile Design -->
+            <div class="col-md-4 work-item mobile">
+                <img src="mobile_project1.jpg" alt="Mobile Project 1" class="img-fluid">
+                <p style="font-weight: 400;">Mobile Project 1: Description of the mobile project.</p>
+            </div>
+            <div class="col-md-4 work-item mobile">
+                <img src="mobile_project2.jpg" alt="Mobile Project 2" class="img-fluid">
+                <p style="font-weight: 400;">Mobile Project 2: Description of the mobile project.</p>
+            </div>
+
+            <!-- Logo -->
+            <div class="col-md-4 work-item logo">
+                <img src="logo_project1.jpg" alt="Logo Project 1" class="img-fluid">
+                <p style="font-weight: 400;">Logo Project 1: Description of the logo project.</p>
+            </div>
+            <div class="col-md-4 work-item logo">
+                <img src="logo_project2.jpg" alt="Logo Project 2" class="img-fluid">
+                <p style="font-weight: 400;">Logo Project 2: Description of
